@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+bin/
+include/
+lib/
+local/
+share/
+*.egg-info/
+.installed.cfg
+*.egg
+build/
+dist/
+
+# Django stuff:
+*.log
+*.pot
+*.mo
+db.sqlite3
+media/
+static_collected/ # Or whatever your collected static files directory is named
+.env # For environment variables
+
+# IDEs and editors
+.idea/ # IntelliJ IDEA
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# OS-specific files
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Custom additions for your project
+# e.g., for specific local settings or temporary files
+# local_settings.py
