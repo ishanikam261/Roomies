@@ -2,12 +2,11 @@ from django.contrib import admin
 from .models import User, Task
 
 class TaskInline(admin.TabularInline):
-    model = Task
-    extra = 1
+   pass
 
 @admin.register(User)
-class WorkerAdmin(admin.ModelAdmin):
-    inlines = [TaskInline]
+class UserAdmin(admin.ModelAdmin):
+   pass
 
 @admin.register(Task)
 class TaskAdmin(admin.ModelAdmin):
